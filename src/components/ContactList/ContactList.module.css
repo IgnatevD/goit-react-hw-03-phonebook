@@ -1,5 +1,5 @@
 .contact {
-    padding: 3px 3px;
+  padding: 3px 3px;
   display: flex;
   text-align: center;
   justify-content: space-between;
@@ -49,8 +49,13 @@
 }
 .listName {
     text-align: left;
-    width: 100%;
-    max-width: 140px;
+    width: 140px;
+    height: 28px;
+    overflow: hidden;
+}
+
+.listName:hover {
+  height: auto;
 }
 
 .listNumber {
