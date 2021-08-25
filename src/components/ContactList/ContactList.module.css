@@ -1,0 +1,60 @@
+.contact {
+    padding: 3px 3px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+
+  margin-top: 10px;
+}
+
+.contact:nth-child(2n){
+    padding: 3px 3px;
+    background: white;
+    color: black;
+
+}
+
+.contact:nth-child(2n) .contactDelete {
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+
+
+.contact:nth-child(2n) .contactDelete:hover {
+    background: rgb(223, 11, 64);
+    color: white;
+  }
+
+.contactDelete {
+    cursor: pointer;
+    margin-top: 15px;
+    display: block;
+    color: white;
+    background: none;
+    border: 1px solid white;
+    margin: 0;
+  }
+
+  .contactDelete:hover {
+    background: rgb(223, 11, 64);
+    color: white;
+  }
+
+
+
+.contactList {
+    padding-bottom: 20px;
+}
+.listName {
+    text-align: left;
+    width: 100%;
+    max-width: 140px;
+}
+
+.listNumber {
+    text-align: center;
+    width: 125px;
+}
+

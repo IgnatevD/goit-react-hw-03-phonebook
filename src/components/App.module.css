@@ -1,0 +1,22 @@
+.section {
+  color: white;
+  text-align: center;
+}
+
+.divConteiner {
+  background-color: black;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 25px 15px 0 20px;
+}
+
+.divContactList {
+  background-color: black;
+  width: 400px;
+  min-height: 600px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 25px 15px 0px 20px;
+
+}

@@ -1,0 +1,15 @@
+.filterConteiner {
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(213, 212, 212, 0.3);
+}
+.labelFilter {
+  display: block;
+  text-align: left;
+  margin-bottom: 3px;
+}
+.inputFilter {
+  font-weight: 16px;
+  outline: none;
+  width: 100%;
+}
